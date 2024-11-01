@@ -1,0 +1,30 @@
+#plugin-title {
+  background-image: url(http://pinnacle.ziawebsolutions.com/zws-contact-banner.png);
+}
+#no-route-msg {display: none;}
+.show {display: block !important; margin-bottom: 12px; padding: 5px 10px; background: yellow; border-radius: 10px; float: left;}
+#map {display: inline-block !important; width: 60%; min-width: 500px; margin-left: 15px; height: 400px; margin-left: 12px;}
+
+.left-panel {float: left; width: 20%; min-width: 200px; height: 400px; background: #e7e7e7; padding: 20px 10px 10px; clear: both;}
+.left-panel li {list-style-type: none; margin: 0 0 10px 0; padding: 0;}
+.left-panel li a {font-size: 14px;}
+.left-panel h4 {font-family: arial; padding-top: 10px; margin-bottom: 15px !important;}
+.left-panel p {font-size: 13px;}
+.left-panel select {margin-bottom: 15px; width: 100%;}
+
+#submit-routes {margin-top: 20px;}
+.plugin-settings-msg {margin-left: 20px; display: inline;}
+
+/*======= Media Query =======*/
+@media screen and (min-width: 1200px) {
+
+}
+@media screen and (max-width: 992px) {
+    .left-panel {width: 30%;}
+    #map {width: 65%; margin-left: 15px;}
+}
+@media screen and (max-width: 768px) {
+    .left-panel {width: 100%;}
+    #map {width: 100%; margin-top: 20px; margin-left: 0;}
+
+}
